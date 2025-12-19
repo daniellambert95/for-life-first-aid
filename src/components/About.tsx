@@ -34,6 +34,13 @@ export default function About() {
                                 "Providing you with life saving skills so you can respond to medical emergencies"
                             </blockquote>
                         </div>
+
+                        {/* Course Fee & Certification */}
+                        <div className="mt-6 sm:mt-8 p-4 sm:p-6 bg-white rounded-lg border-l-4 border-[#66bb6a]">
+                            <p className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
+                                The course fee is <span className="font-semibold text-[#66bb6a]">€85</span> which includes PHECC (Pre Hospital Emergency Care Council) Certification valid for two years.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -72,14 +72,30 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="border-t border-white/20 pt-6 sm:pt-8">
+                <div className="border-t border-white/20 pt-6 sm:pt-8 space-y-4">
                     <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-white/80">
-                        <p>
-                            &copy; {new Date().getFullYear()} For Life First Aid. All rights reserved.
-                        </p>
+                        <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+                            <p>
+                                &copy; {new Date().getFullYear()} For Life First Aid. All rights reserved.
+                            </p>
+                            <span className="hidden sm:inline">·</span>
+                            <Link href="/privacy" className="hover:text-white transition-colors underline">
+                                Privacy Policy
+                            </Link>
+                        </div>
                         <p>
                             PHECC Approved Cardiac First Responder Course
                         </p>
+                    </div>
+                    <div className="text-center">
+                        <a
+                            href="https://www.siteandsight.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm text-white/70 hover:text-white transition-colors"
+                        >
+                            Web design by Site&Sight
+                        </a>
                     </div>
                 </div>
             </div>
