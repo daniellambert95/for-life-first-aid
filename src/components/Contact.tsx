@@ -55,7 +55,7 @@ export default function Contact() {
                             <input
                                 type="hidden"
                                 name="access_key"
-                                value="YOUR_WEB3FORMS_ACCESS_KEY"
+                                value={process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY}
                             />
 
                             <div>
