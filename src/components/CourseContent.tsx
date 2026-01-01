@@ -42,12 +42,22 @@ export default function CourseContent() {
                 </div>
 
                 {/* Full Width Course Details Section */}
-                <div id="details" className="w-full">
+                <div id="details" className="w-full mb-16 lg:mb-24">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-8 sm:mb-10 text-[#66bb6a]">
                         Course <span className="text-[#4db6ac]">Details:</span>
                     </h2>
                     <p className="text-gray-400 leading-relaxed text-sm sm:text-base md:text-lg max-w-5xl">
                         The Cardiac first responder course is approx 3.5 hours long. The course is instructor and video led, it is very interactive and engaging . Students will get lots of practical work using our training manikins and Automated External Defibrillators. You will work with two instructors ensuring you get the highest level of supervised training at all times.
+                    </p>
+                </div>
+
+                {/* Certificate Renewal Section */}
+                <div className="w-full">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-8 sm:mb-10 text-[#66bb6a]">
+                        Certificate <span className="text-[#4db6ac]">Renewal</span>
+                    </h2>
+                    <p className="text-gray-400 leading-relaxed text-sm sm:text-base md:text-lg max-w-5xl">
+                        All Pre-Hospital Emergency Care Council (PHECC) Cardiac First Responder (CFR) certificates are valid for two years. If your CFR certificate has expired or is due for renewal, you must complete a refresher course to remain certified.
                     </p>
                 </div>
             </div>

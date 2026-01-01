@@ -27,7 +27,7 @@ export default function Location() {
 
                         <div className="space-y-6 sm:space-y-8 text-gray-600">
                             <p className="text-base sm:text-lg md:text-xl leading-relaxed italic">
-                                Course can be run in your own premises, school, office, or at our location in <span className="font-bold text-gray-800">Dundrum.</span>
+                                Course can be run in your own premises, school, office, or at our location in <span className="font-bold text-gray-800">Dundrum D16H7E2.</span>
                             </p>
 
                             <div className="space-y-4">
@@ -36,7 +36,7 @@ export default function Location() {
                                 </p>
 
                                 <p className="text-sm sm:text-base md:text-lg italic text-gray-500">
-                                    Routes: (14 44 750 S6 74 161 44D)
+                                    Routes: (44, 44B, 14, 750)
                                 </p>
                             </div>
                         </div>

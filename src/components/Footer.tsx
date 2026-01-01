@@ -40,7 +40,7 @@ export default function Footer() {
                                 </a>
                             </p>
                             <p>
-                                <span className="font-semibold">Location:</span> Dundrum, Dublin
+                                <span className="font-semibold">Location:</span> Dundrum D16H7E2, Dublin
                             </p>
                         </div>
                     </div>
