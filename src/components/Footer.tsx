@@ -40,7 +40,7 @@ export default function Footer() {
                                 </a>
                             </p>
                             <p>
-                                <span className="font-semibold">Location:</span> Dundrum D16H7E2, Dublin
+                                <span className="font-semibold">Location:</span> Dundrum Town Centre, Unit CSA 2.5, Building 9, Sandyford Rd, Dundrum, Dublin, D16 H7E2
                             </p>
                         </div>
                     </div>
