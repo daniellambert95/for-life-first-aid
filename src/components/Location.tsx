@@ -27,7 +27,7 @@ export default function Location() {
 
                         <div className="space-y-6 sm:space-y-8 text-gray-600">
                             <p className="text-base sm:text-lg md:text-xl leading-relaxed italic">
-                                Course can be run in your own premises, school, office, or at our location in <span className="font-bold text-gray-800">Dundrum D16H7E2.</span>
+                                Courses are run in the <span className="font-bold text-gray-800">Dundrum Town Centre</span>, (Shopping Centre) <span className="font-bold text-gray-800">Unit CSA 2.5, Building 9, Sandyford Rd, Dundrum, Dublin, D16 H7E2.</span>
                             </p>
 
                             <div className="space-y-4">

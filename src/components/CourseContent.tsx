@@ -47,7 +47,7 @@ export default function CourseContent() {
                         Course <span className="text-[#4db6ac]">Details:</span>
                     </h2>
                     <p className="text-gray-400 leading-relaxed text-sm sm:text-base md:text-lg max-w-5xl">
-                        The Cardiac first responder course is approx 3.5 hours long. The course is instructor and video led, it is very interactive and engaging . Students will get lots of practical work using our training manikins and Automated External Defibrillators. You will work with two instructors ensuring you get the highest level of supervised training at all times.
+                        The Cardiac first responder course is approx 3.5 hours long. The course is instructor and video led, it is very interactive and engaging . Students will get lots of practical work using our training manikins and Automated External Defibrillators. Classes are very small max six people ensuring you get the highest level of supervised training at all times.
                     </p>
                 </div>
 

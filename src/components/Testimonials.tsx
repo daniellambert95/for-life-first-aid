@@ -21,6 +21,18 @@ export default function Testimonials() {
                             key={index}
                             className="bg-white p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
                         >
+                            <div className="flex gap-1 mb-4">
+                                {[...Array(5)].map((_, i) => (
+                                    <svg
+                                        key={i}
+                                        className="w-5 h-5 fill-[#66bb6a]"
+                                        viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z" />
+                                    </svg>
+                                ))}
+                            </div>
                             <p className="text-gray-600 italic leading-relaxed text-sm sm:text-base">
                                 "{testimonial}"
                             </p>

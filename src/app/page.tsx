@@ -5,7 +5,9 @@ import About from "@/components/About";
 import CourseContent from "@/components/CourseContent";
 import Testimonials from "@/components/Testimonials";
 import Philosophy from "@/components/Philosophy";
+import InstructorBio from "@/components/InstructorBio";
 import Location from "@/components/Location";
+import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -22,8 +24,10 @@ export default function Home() {
         "description": "PHECC Certified Cardiac First Responder training provider in Dublin, Ireland",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "Unit CSA 2.5, Building 9, Sandyford Rd, Dundrum Town Centre",
           "addressLocality": "Dundrum",
           "addressRegion": "Dublin",
+          "postalCode": "D16 H7E2",
           "addressCountry": "IE"
         },
         "contactPoint": {
@@ -62,11 +66,13 @@ export default function Home() {
           "courseMode": "onsite",
           "location": {
             "@type": "Place",
-            "name": "Dundrum, Dublin",
+            "name": "Dundrum Town Centre",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "Unit CSA 2.5, Building 9, Sandyford Rd",
               "addressLocality": "Dundrum",
               "addressRegion": "Dublin",
+              "postalCode": "D16 H7E2",
               "addressCountry": "IE"
             }
           }
@@ -137,7 +143,9 @@ export default function Home() {
         <CourseContent />
         <Testimonials />
         <Philosophy />
+        {/* <InstructorBio /> */}
         <Location />
+        <FAQ />
         <Contact />
         <Footer />
       </main>
