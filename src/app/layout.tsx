@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   authors: [{ name: "For Life First Aid" }],
   creator: "For Life First Aid",
   publisher: "For Life First Aid",
+  icons: {
+    icon: '/favicon.ico',
+  },
   robots: {
     index: true,
     follow: true,
@@ -31,11 +34,20 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IE",
     siteName: "For Life First Aid",
+    images: [
+      {
+        url: '/assets/4_life_logo.webp',
+        width: 1200,
+        height: 630,
+        alt: 'For Life First Aid Logo',
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Cardiac First Responder Course | For Life First Aid",
     description: "PHECC Certified Cardiac First Responder Course in Dublin Dundrum D16. Learn CPR, AED use, and life-saving skills.",
+    images: ['/assets/4_life_logo.webp'],
   },
   verification: {
     google: "google-site-verification-code-here",
