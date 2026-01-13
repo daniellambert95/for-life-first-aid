@@ -143,7 +143,7 @@ export default function Home() {
         <CourseContent />
         <Testimonials />
         <Philosophy />
-        {/* <InstructorBio /> */}
+        <InstructorBio />
         <Location />
         <FAQ />
         <Contact />

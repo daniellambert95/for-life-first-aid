@@ -8,23 +8,13 @@ export default function InstructorBio() {
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 xl:gap-20">
                     {/* Image - First on mobile, First on desktop */}
                     <div className="w-full lg:w-1/2 flex items-center justify-center order-1">
-                        <div className="relative w-full max-w-[300px] sm:max-w-[350px] lg:max-w-[400px] aspect-square">
-                            {/* Placeholder for instructor photo */}
-                            <div className="w-full h-full rounded-full bg-gradient-to-br from-[#66bb6a] to-[#4db6ac] flex items-center justify-center shadow-lg">
-                                <div className="text-center">
-                                    <div className="text-white text-6xl sm:text-7xl mb-4">👤</div>
-                                    <p className="text-white text-sm sm:text-base font-semibold px-4">
-                                        Photo Coming Soon
-                                    </p>
-                                </div>
-                            </div>
-                            {/* Uncomment below and replace with actual image path when photo is available */}
-                            {/* <Image
-                                src="/assets/instructor-photo.jpg"
+                        <div className="relative w-full max-w-[300px] sm:max-w-[350px] lg:max-w-[400px] aspect-[3/4] border-4 border-[#66bb6a] rounded-2xl overflow-hidden shadow-lg">
+                            <Image
+                                src="/assets/Cathy-Miller.webp"
                                 alt="Cathy Vard - First Aid Instructor"
                                 fill
-                                className="object-cover rounded-full shadow-lg"
-                            /> */}
+                                className="object-cover"
+                            />
                         </div>
                     </div>
 
@@ -64,10 +54,16 @@ export default function InstructorBio() {
                                     Contact Cathy:
                                 </p>
                                 <p className="text-gray-600 text-sm sm:text-base mt-2">
-                                    <span className="font-medium">Phone:</span> +353-86-896-1087
+                                    <span className="font-medium">Phone:</span>{" "}
+                                    <a href="tel:+353868961087" className="text-[#66bb6a] hover:text-[#4db6ac] transition-colors underline">
+                                        +353-86-896-1087
+                                    </a>
                                 </p>
                                 <p className="text-gray-600 text-sm sm:text-base">
-                                    <span className="font-medium">Email:</span> cathyvard@gmail.com
+                                    <span className="font-medium">Email:</span>{" "}
+                                    <a href="mailto:cathyvard@gmail.com" className="text-[#66bb6a] hover:text-[#4db6ac] transition-colors underline">
+                                        cathyvard@gmail.com
+                                    </a>
                                 </p>
                             </div>
                         </div>
