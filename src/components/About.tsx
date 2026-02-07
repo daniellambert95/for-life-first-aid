@@ -37,8 +37,11 @@ export default function About() {
 
                         {/* Course Fee & Certification */}
                         <div className="mt-6 sm:mt-8 p-4 sm:p-6 bg-white rounded-lg border-l-4 border-[#66bb6a]">
+                            <h3 className="text-xl sm:text-2xl font-bold text-[#66bb6a] mb-3">
+                                Course Fee
+                            </h3>
                             <p className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
-                                The course fee is <span className="font-semibold text-[#66bb6a]">€85</span> which includes PHECC (Pre Hospital Emergency Care Council) Certification valid for two years.
+                                The CFR course fee is <span className="font-semibold text-[#66bb6a]">€85</span> which includes PHECC (Pre Hospital Emergency Care Council) Certification valid for two years. Bookings require a <span className="font-semibold text-[#66bb6a]">€50</span> deposit deducted from course fee.
                             </p>
                         </div>
                     </div>
