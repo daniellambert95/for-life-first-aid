@@ -27,6 +27,13 @@ export default function Navbar() {
                         THEIR LIFE IN YOUR HANDS
                     </div>
 
+                    {/* Desktop Blog Link */}
+                    <div className="hidden md:block">
+                        <Link href="/blog/what-to-do-if-someone-collapses" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
+                            Blog
+                        </Link>
+                    </div>
+
                     {/* Mobile Menu Button */}
                     <button
                         className="md:hidden flex flex-col gap-1.5 p-2"
@@ -66,6 +73,11 @@ export default function Navbar() {
                             <li>
                                 <Link href="#location" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
                                     Location
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/blog/what-to-do-if-someone-collapses" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                    Blog
                                 </Link>
                             </li>
                             <li className="mt-4">
