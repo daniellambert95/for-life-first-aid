@@ -29,7 +29,7 @@ export default function Navbar() {
 
                     {/* Desktop Blog Link */}
                     <div className="hidden md:block">
-                        <Link href="/blog/what-to-do-if-someone-collapses" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
+                        <Link href="/blog" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
                             Blog
                         </Link>
                     </div>
@@ -76,7 +76,7 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/blog/what-to-do-if-someone-collapses" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                <Link href="/blog" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
                                     Blog
                                 </Link>
                             </li>

@@ -67,7 +67,7 @@ export default function Footer() {
                             <Link href="#contact" className="hover:text-white transition-colors">
                                 Contact
                             </Link>
-                            <Link href="/blog/what-to-do-if-someone-collapses" className="hover:text-white transition-colors">
+                            <Link href="/blog" className="hover:text-white transition-colors">
                                 Blog
                             </Link>
                         </nav>
