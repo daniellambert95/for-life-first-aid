@@ -49,9 +49,6 @@ export default function Footer() {
                     <div className="space-y-4">
                         <h3 className="text-xl sm:text-2xl font-bold mb-4">Quick Links</h3>
                         <nav className="flex flex-col space-y-3 text-white/90 text-sm sm:text-base">
-                            <Link href="/#about" className="hover:text-white transition-colors">
-                                About
-                            </Link>
                             <Link href="/#course-content" className="hover:text-white transition-colors">
                                 Course Content
                             </Link>

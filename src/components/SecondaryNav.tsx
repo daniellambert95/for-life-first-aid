@@ -6,11 +6,6 @@ export default function SecondaryNav() {
             <div className="max-w-7xl mx-auto px-5">
                 <ul className="flex justify-center gap-12 py-4">
                     <li>
-                        <Link href="/#about" className="text-sm font-medium text-gray-700 hover:text-[--primary] transition-colors">
-                            About
-                        </Link>
-                    </li>
-                    <li>
                         <Link href="/#course-content" className="text-sm font-medium text-gray-700 hover:text-[--primary] transition-colors">
                             Course Content
                         </Link>
