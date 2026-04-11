@@ -57,27 +57,27 @@ export default function Navbar() {
                     <div className="md:hidden mt-4 pb-4 border-t border-white/20 pt-4">
                         <ul className="flex flex-col gap-2">
                             <li>
-                                <Link href="#about" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                <Link href="/#about" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
                                     About
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#course-content" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                <Link href="/#course-content" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
                                     Course Content
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#details" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                <Link href="/#details" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
                                     Details
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#testimonials" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                <Link href="/#testimonials" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
                                     Testimonials
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#location" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                <Link href="/#location" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
                                     Location
                                 </Link>
                             </li>
@@ -98,7 +98,7 @@ export default function Navbar() {
                             </li>
                             <li className="mt-4">
                                 <Link
-                                    href="#contact"
+                                    href="/#contact"
                                     onClick={() => setMobileMenuOpen(false)}
                                     className="bg-white text-[#66bb6a] px-8 py-4 rounded-full font-bold text-center block hover:bg-white/90 transition-all shadow-lg hover:shadow-xl"
                                 >
