@@ -27,8 +27,14 @@ export default function Navbar() {
                         THEIR LIFE IN YOUR HANDS
                     </div>
 
-                    {/* Desktop Blog Link */}
-                    <div className="hidden md:block">
+                    {/* Desktop Nav Links */}
+                    <div className="hidden md:flex items-center gap-6">
+                        <Link href="/about" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
+                            About
+                        </Link>
+                        <Link href="/contact" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
+                            Contact
+                        </Link>
                         <Link href="/blog" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
                             Blog
                         </Link>
@@ -78,6 +84,16 @@ export default function Navbar() {
                             <li>
                                 <Link href="/blog" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
                                     Blog
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/about" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                    About
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-colors">
+                                    Contact
                                 </Link>
                             </li>
                             <li className="mt-4">

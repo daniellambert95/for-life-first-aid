@@ -14,19 +14,48 @@ export const metadata: Metadata = {
         type: "article",
         locale: "en_IE",
         siteName: "For Life First Aid",
+        publishedTime: "2025-04-01T00:00:00.000Z",
+        authors: ["Cathy Vard"],
     },
+};
+
+const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "How to Perform CPR Step by Step (Adults, Children & Infants)",
+    "description": "A complete step-by-step guide to performing CPR on adults, children, and infants. Learn the correct technique, compression depth, rate, and when to use an AED.",
+    "author": {
+        "@type": "Person",
+        "name": "Cathy Vard",
+        "url": "https://www.cardiacfirstrespondercourse.ie/#instructor"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "For Life First Aid",
+        "url": "https://www.cardiacfirstrespondercourse.ie",
+        "logo": "https://www.cardiacfirstrespondercourse.ie/assets/4_life_logo.webp"
+    },
+    "datePublished": "2025-04-01",
+    "dateModified": "2025-04-01",
+    "url": "https://www.cardiacfirstrespondercourse.ie/blog/how-to-perform-cpr",
+    "inLanguage": "en-IE",
+    "mainEntityOfPage": "https://www.cardiacfirstrespondercourse.ie/blog/how-to-perform-cpr"
 };
 
 export default function HowToPerformCPR() {
     return (
         <div className="min-h-screen bg-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+            />
             <div className="max-w-3xl mx-auto px-6 py-16 sm:px-8 sm:py-20">
 
                 <Link
-                    href="/"
+                    href="/blog"
                     className="inline-flex items-center text-[#66bb6a] hover:text-[#5aaa5e] mb-8 transition-colors"
                 >
-                    Back to Home
+                    Back to Blog
                 </Link>
 
                 <p className="text-sm text-gray-500 mb-4">Published by For Life First Aid</p>

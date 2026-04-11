@@ -14,19 +14,48 @@ export const metadata: Metadata = {
         type: "article",
         locale: "en_IE",
         siteName: "For Life First Aid",
+        publishedTime: "2025-04-01T00:00:00.000Z",
+        authors: ["Cathy Vard"],
     },
+};
+
+const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "What To Do If Someone Collapses (Step-by-Step Guide for Bystanders)",
+    "description": "A step-by-step guide for bystanders on what to do if someone collapses. Learn how to check for danger, start CPR, and use an AED to save a life.",
+    "author": {
+        "@type": "Person",
+        "name": "Cathy Vard",
+        "url": "https://www.cardiacfirstrespondercourse.ie/#instructor"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "For Life First Aid",
+        "url": "https://www.cardiacfirstrespondercourse.ie",
+        "logo": "https://www.cardiacfirstrespondercourse.ie/assets/4_life_logo.webp"
+    },
+    "datePublished": "2025-04-01",
+    "dateModified": "2025-04-01",
+    "url": "https://www.cardiacfirstrespondercourse.ie/blog/what-to-do-if-someone-collapses",
+    "inLanguage": "en-IE",
+    "mainEntityOfPage": "https://www.cardiacfirstrespondercourse.ie/blog/what-to-do-if-someone-collapses"
 };
 
 export default function WhatToDoIfSomeoneCollapses() {
     return (
         <div className="min-h-screen bg-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+            />
             <div className="max-w-3xl mx-auto px-6 py-16 sm:px-8 sm:py-20">
 
                 <Link
-                    href="/"
+                    href="/blog"
                     className="inline-flex items-center text-[#66bb6a] hover:text-[#5aaa5e] mb-8 transition-colors"
                 >
-                    Back to Home
+                    Back to Blog
                 </Link>
 
                 <p className="text-sm text-gray-500 mb-4">Published by For Life First Aid</p>

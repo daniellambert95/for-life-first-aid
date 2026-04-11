@@ -18,6 +18,42 @@ export const metadata: Metadata = {
 
 const posts = [
     {
+        href: "/blog/is-a-cardiac-first-responder-course-worth-it",
+        title: "Is a Cardiac First Responder Course Worth It? (What You Need to Know)",
+        description:
+            "Thinking about taking a CFR course? Here is why it is worth it — from the confidence it builds to the lives it could help save.",
+    },
+    {
+        href: "/blog/best-cpr-courses-in-dublin",
+        title: "Best CPR Courses in Dublin: What to Look For Before Booking",
+        description:
+            "Not all CPR courses are the same. Here is what to look for before booking — certification, class size, practical training, instructor experience, and more.",
+    },
+    {
+        href: "/blog/how-much-does-a-cpr-course-cost-in-dublin",
+        title: "How Much Does a CPR Course Cost in Dublin? (2026 Guide)",
+        description:
+            "CPR courses in Dublin typically cost €80 to €100. Learn what affects the price, why class size matters, and what is included in a quality PHECC-certified course.",
+    },
+    {
+        href: "/blog/how-long-does-cpr-certificate-last",
+        title: "How Long Does a CPR / CFR Certificate Last in Ireland?",
+        description:
+            "A PHECC Cardiac First Responder certificate is valid for 2 years. Find out what happens when it expires, what a refresher course covers, and whether your workplace requires valid certification.",
+    },
+    {
+        href: "/blog/heart-attack-vs-cardiac-arrest",
+        title: "Heart Attack vs Cardiac Arrest: What's the Difference?",
+        description:
+            "Many people think a heart attack and cardiac arrest are the same thing — but they require very different responses. Understanding the difference could help you act correctly in an emergency.",
+    },
+    {
+        href: "/blog/how-to-use-a-defibrillator",
+        title: "How to Use a Defibrillator (AED) — A Simple Guide Anyone Can Follow",
+        description:
+            "AEDs are designed for complete beginners. Learn the step-by-step process for using a defibrillator in a cardiac emergency — no medical training required.",
+    },
+    {
         href: "/blog/how-to-perform-cpr",
         title: "How to Perform CPR Step by Step (Adults, Children & Infants)",
         description:
