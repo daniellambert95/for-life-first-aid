@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import ContactForm from "@/components/Contact";
+import Navbar from "@/components/Navbar";
+import SecondaryNav from "@/components/SecondaryNav";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
     title: "Contact Us | For Life First Aid — Book a CPR Course in Dublin",
@@ -43,24 +45,17 @@ const structuredData = {
 
 export default function ContactPage() {
     return (
-        <div className="min-h-screen bg-white">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-            />
-
-            {/* Back link */}
-            <div className="max-w-3xl mx-auto px-6 sm:px-8 pt-8">
-                <Link
-                    href="/"
-                    className="inline-flex items-center text-[#66bb6a] hover:text-[#5aaa5e] transition-colors text-sm"
-                >
-                    ← Back to Home
-                </Link>
+        <>
+            <Navbar />
+            <SecondaryNav />
+            <div className="min-h-screen bg-white">
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+                />
+                <ContactForm />
             </div>
-
-            {/* Reuse the existing Contact component */}
-            <ContactForm />
-        </div>
+            <Footer />
+        </>
     );
 }

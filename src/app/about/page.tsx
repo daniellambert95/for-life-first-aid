@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import Navbar from "@/components/Navbar";
+import SecondaryNav from "@/components/SecondaryNav";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
     title: "About For Life First Aid | PHECC Certified First Aid Training Dublin",
@@ -41,6 +44,9 @@ const structuredData = {
 
 export default function AboutPage() {
     return (
+        <>
+        <Navbar />
+        <SecondaryNav />
         <div className="min-h-screen bg-white">
             <script
                 type="application/ld+json"
@@ -48,14 +54,8 @@ export default function AboutPage() {
             />
 
             {/* Hero */}
-            <div className="bg-gradient-to-r from-[#66bb6a] to-[#4db6ac] text-white py-16 sm:py-20">
+            <div className="bg-linear-to-r from-[#66bb6a] to-[#4db6ac] text-white py-16 sm:py-20">
                 <div className="max-w-3xl mx-auto px-6 sm:px-8 text-center">
-                    <Link
-                        href="/"
-                        className="inline-flex items-center text-white/80 hover:text-white mb-8 transition-colors text-sm"
-                    >
-                        ← Back to Home
-                    </Link>
                     <h1 className="text-4xl sm:text-5xl font-bold mb-4">About For Life First Aid</h1>
                     <p className="text-lg sm:text-xl text-white/90 leading-relaxed">
                         Providing life-saving CPR and first aid training to help you respond confidently in medical emergencies.
@@ -168,5 +168,7 @@ export default function AboutPage() {
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
     );
 }
