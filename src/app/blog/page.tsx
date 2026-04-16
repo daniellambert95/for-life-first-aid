@@ -54,12 +54,12 @@ const posts = [
     //     description:
     //         "CPR courses in Dublin typically cost €80 to €100. Learn what affects the price, why class size matters, and what is included in a quality PHECC-certified course.",
     // },
-    // {
-    //     href: "/blog/best-cpr-courses-in-dublin",
-    //     title: "Best CPR Courses in Dublin: What to Look For Before Booking",
-    //     description:
-    //         "Not all CPR courses are the same. Here is what to look for before booking — certification, class size, practical training, instructor experience, and more.",
-    // },
+    {
+        href: "/blog/best-cpr-courses-in-dublin",
+        title: "Best CPR Courses in Dublin: What to Look For Before Booking",
+        description:
+            "Not all CPR courses are the same. Here is what to look for before booking — certification, class size, practical training, instructor experience, and more.",
+    },
     // {
     //     href: "/blog/is-a-cardiac-first-responder-course-worth-it",
     //     title: "Is a Cardiac First Responder Course Worth It? (What You Need to Know)",
