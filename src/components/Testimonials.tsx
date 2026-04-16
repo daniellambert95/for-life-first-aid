@@ -16,7 +16,8 @@ export default function Testimonials() {
         "Very comprehensive and beautifully delivered by Cathy",
         "Cathy is a brilliant teacher. Feel very confident after training and completing the course. Highly recommend the training",
         "Excellent teacher - will be telling others to do this life-saving course",
-        "I thought Cathy was a very clear instructor. I especially benefited from the CPR instruction and video"
+        "I thought Cathy was a very clear instructor. I especially benefited from the CPR instruction and video",
+        "Cathy was brilliant at delivering the course. I cannot believe how much we all learned in 4 hrs. I feel confident to be thrown into a situation + wish to respond to the best of my ability. I am going to highly recommend the course. Every business needs to train their team. Thank you!"
     ];
 
     const [emblaRef, emblaApi] = useEmblaCarousel(
