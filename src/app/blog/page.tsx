@@ -30,12 +30,12 @@ const posts = [
             "If someone suddenly collapses in front of you, knowing what to do in those first few minutes can save a life. Learn exactly how to respond — even with no medical training.",
     },
     // Unpublished — uncomment when ready to publish:
-    // {
-    //     href: "/blog/how-to-use-a-defibrillator",
-    //     title: "How to Use a Defibrillator (AED) — A Simple Guide Anyone Can Follow",
-    //     description:
-    //         "AEDs are designed for complete beginners. Learn the step-by-step process for using a defibrillator in a cardiac emergency — no medical training required.",
-    // },
+    {
+        href: "/blog/how-to-use-a-defibrillator",
+        title: "How to Use a Defibrillator (AED) — A Simple Guide Anyone Can Follow",
+        description:
+            "AEDs are designed for complete beginners. Learn the step-by-step process for using a defibrillator in a cardiac emergency — no medical training required.",
+    },
     // {
     //     href: "/blog/heart-attack-vs-cardiac-arrest",
     //     title: "Heart Attack vs Cardiac Arrest: What's the Difference?",
