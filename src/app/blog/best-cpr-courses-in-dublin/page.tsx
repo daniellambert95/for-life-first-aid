@@ -14,12 +14,41 @@ export const metadata: Metadata = {
         type: "article",
         locale: "en_IE",
         siteName: "For Life First Aid",
+        publishedTime: "2025-04-15T00:00:00.000Z",
+        authors: ["Cathy Vard"],
     },
+};
+
+const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Best CPR Courses in Dublin: What to Look For Before Booking",
+    "description": "Not all CPR courses are the same. Learn what to look for before booking a CPR course in Dublin — certification, class size, practical training, and more.",
+    "author": {
+        "@type": "Person",
+        "name": "Cathy Vard",
+        "url": "https://www.cardiacfirstrespondercourse.ie/#instructor"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "For Life First Aid",
+        "url": "https://www.cardiacfirstrespondercourse.ie",
+        "logo": "https://www.cardiacfirstrespondercourse.ie/assets/4_life_logo.webp"
+    },
+    "datePublished": "2025-04-15",
+    "dateModified": "2025-04-15",
+    "url": "https://www.cardiacfirstrespondercourse.ie/blog/best-cpr-courses-in-dublin",
+    "inLanguage": "en-IE",
+    "mainEntityOfPage": "https://www.cardiacfirstrespondercourse.ie/blog/best-cpr-courses-in-dublin"
 };
 
 export default function BestCPRCoursesInDublin() {
     return (
         <div className="min-h-screen bg-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+            />
             <div className="max-w-3xl mx-auto px-6 py-16 sm:px-8 sm:py-20">
 
                 <Link
@@ -29,7 +58,7 @@ export default function BestCPRCoursesInDublin() {
                     Back to Blog
                 </Link>
 
-                <p className="text-sm text-gray-500 mb-4">Published by For Life First Aid</p>
+                <p className="text-sm text-gray-500 mb-4">Published 15 April 2025 · For Life First Aid</p>
 
                 <h1 className="text-4xl sm:text-5xl font-bold text-[#66bb6a] mb-6 leading-tight">
                     Best CPR Courses in Dublin: What to Look For Before Booking
