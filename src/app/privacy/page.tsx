@@ -1,8 +1,16 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Privacy Policy | For Life First Aid",
-    description: "Privacy policy for For Life First Aid",
+    description: "Privacy policy for For Life First Aid — how we collect, use, and protect your personal data under GDPR.",
+    alternates: {
+        canonical: "https://www.cardiacfirstrespondercourse.ie/privacy",
+    },
+    robots: {
+        index: false,
+        follow: true,
+    },
 };
 
 export default function PrivacyPolicy() {

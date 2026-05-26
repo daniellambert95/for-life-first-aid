@@ -8,6 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.cardiacfirstrespondercourse.ie'),
   title: "Cardiac First Responder Course | For Life First Aid",
   description: "PHECC Certified Cardiac First Responder Course in Dublin Dundrum D16. Learn CPR, AED use, and life-saving skills. €85, valid for 2 years. Book your course in Dundrum or at your premises.",
   keywords: ["Cardiac First Responder", "CPR course Dublin", "AED training", "First Aid Course Ireland", "PHECC Certified", "Dundrum", "Dublin", "CPR certification", "First Responder training", "Emergency response course"],
@@ -48,9 +49,6 @@ export const metadata: Metadata = {
     title: "Cardiac First Responder Course | For Life First Aid",
     description: "PHECC Certified Cardiac First Responder Course in Dublin Dundrum D16. Learn CPR, AED use, and life-saving skills.",
     images: ['/assets/4_life_logo.webp'],
-  },
-  verification: {
-    google: "google-site-verification-code-here",
   },
   alternates: {
     canonical: "https://www.cardiacfirstrespondercourse.ie",
