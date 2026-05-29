@@ -77,6 +77,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/blog/first-aid-course-dublin`,
+      lastModified: new Date('2025-05-15'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/cfr-course-dublin`,
+      lastModified: new Date('2025-05-20'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/baby-and-child-first-aid-dublin`,
+      lastModified: new Date('2025-05-29'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/workplace-first-aid-dublin`,
+      lastModified: new Date('2025-05-29'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/privacy`,
       lastModified: new Date('2025-12-01'),
       changeFrequency: 'yearly',

@@ -65,6 +65,30 @@ const posts = [
         description:
             "Thinking about taking a CFR course? Here is why it is worth it — from the confidence it builds to the lives it could help save.",
     },
+    {
+        href: "/blog/first-aid-course-dublin",
+        title: "First Aid Course Dublin: What to Expect & How to Book",
+        description:
+            "Looking for a first aid course in Dublin? Learn what a quality course covers, how long it takes, and how to book a PHECC-certified course in Dundrum, Dublin.",
+    },
+    {
+        href: "/blog/cfr-course-dublin",
+        title: "CFR Course Dublin: PHECC Cardiac First Responder Training",
+        description:
+            "Everything you need to know about a CFR (Cardiac First Responder) course in Dublin — what it covers, how long it takes, how much it costs, and where to book.",
+    },
+    {
+        href: "/blog/baby-and-child-first-aid-dublin",
+        title: "Baby & Child First Aid in Dublin: CPR, Choking & What to Do in an Emergency",
+        description:
+            "A practical guide for parents and carers in Dublin on infant and child CPR, choking response, and AED use — and how to get certified.",
+    },
+    {
+        href: "/blog/workplace-first-aid-dublin",
+        title: "Workplace First Aid Dublin: Training, Requirements & How to Book",
+        description:
+            "Everything Dublin employers need to know about workplace first aid requirements, what a CFR course covers, and how to get your team PHECC-certified.",
+    },
 ];
 
 export default function BlogIndex() {
