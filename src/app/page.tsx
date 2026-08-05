@@ -3,6 +3,7 @@ import SecondaryNav from "@/components/SecondaryNav";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import CourseContent from "@/components/CourseContent";
+import PrivateCourses from "@/components/PrivateCourses";
 import Testimonials from "@/components/Testimonials";
 import Philosophy from "@/components/Philosophy";
 import InstructorBio from "@/components/InstructorBio";
@@ -141,6 +142,7 @@ export default function Home() {
         <Hero />
         <About />
         <CourseContent />
+        <PrivateCourses />
         <Testimonials />
         <Philosophy />
         <InstructorBio />

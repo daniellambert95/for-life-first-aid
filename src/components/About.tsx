@@ -41,7 +41,7 @@ export default function About() {
                                 Course Fee
                             </h3>
                             <p className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
-                                The CFR course fee is <span className="font-semibold text-[#66bb6a]">€85</span> which includes PHECC (Pre Hospital Emergency Care Council) Certification valid for two years. Bookings require a <span className="font-semibold text-[#66bb6a]">€50</span> deposit deducted from course fee.
+                                The CFR public course fee is <span className="font-semibold text-[#66bb6a]">€85 per person</span> which includes PHECC (Pre Hospital Emergency Care Council) Certification valid for two years. Bookings require a <span className="font-semibold text-[#66bb6a]">€50</span> deposit deducted from course fee.
                             </p>
                         </div>
                     </div>

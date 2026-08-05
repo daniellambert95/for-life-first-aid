@@ -62,13 +62,20 @@ export default function Hero() {
                         </div>
 
                         {/* CTA Button */}
-                        <div className="flex justify-center">
+                        <div className="flex justify-center md:justify-start mb-6">
                             <a
                                 href="#contact"
                                 className="inline-block bg-[#66bb6a] hover:bg-[#5aaa5e] text-white px-12 py-5 rounded-full font-bold text-xl shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105"
                             >
                                 Book Your Course Now
                             </a>
+                        </div>
+
+                        {/* Location Text */}
+                        <div className="text-center md:text-left">
+                            <p className="text-gray-500 text-base sm:text-lg font-medium">
+                                📍 Dundrum Town Centre, Dublin 16
+                            </p>
                         </div>
                     </div>
                 </div>
