@@ -6,7 +6,7 @@ export default function PrivateCourses() {
                     Private <span className="text-[#4db6ac]">Courses</span>
                 </h2>
                 <p className="text-gray-600 leading-relaxed text-base sm:text-lg md:text-lg max-w-4xl">
-                    Would you like to arrange a private Cardiac First Response course for your workplace, family, friends, or colleagues? I offer private training for groups of up to <span className="font-semibold">6 people at my Dundrum</span> training venue, with flexible dates and times to suit your schedule. The fee is <span className="font-semibold">€600 per private group of up to 6 people</span>, regardless of the number of participants attending. Certification is optional and costs an additional <span className="font-semibold">€15 per person</span>. This is a half-day (4 hour) Cardiac First Response Course.
+                    Would you like to arrange a private Cardiac First Response course for your workplace, family, friends, or colleagues? I offer private training for groups of up to <span className="font-semibold">8 people at my Dundrum</span> training venue, with flexible dates and times to suit your schedule. The fee is <span className="font-semibold">€600 per private group of up to 8 people</span>, regardless of the number of participants attending. Certification is optional and costs an additional <span className="font-semibold">€15 per person</span>. This is a half-day (4 hour) Cardiac First Response Course.
                 </p>
             </div>
         </section>
