@@ -162,7 +162,7 @@ export default function WorkplaceFirstAidDublin() {
                     <section>
                         <h2 className="text-2xl font-bold text-gray-900 mb-4">How Much Does Workplace First Aid Training Cost in Dublin?</h2>
                         <p>
-                            A PHECC CFR course costs €85 per person. For groups or team bookings, contact us to discuss dates and availability.{" "}
+                            A PHECC CFR course costs €115 per person. For groups or team bookings, contact us to discuss dates and availability.{" "}
                             <Link href="/blog/how-much-does-a-cpr-course-cost-in-dublin" className="text-[#66bb6a] hover:text-[#5aaa5e] underline underline-offset-2">
                                 Read our full guide on CPR course costs in Dublin
                             </Link>{" "}
@@ -239,7 +239,7 @@ export default function WorkplaceFirstAidDublin() {
                             <li>
                                 <strong>Fee:</strong>{" "}
                                 <Link href="/#about" className="text-[#66bb6a] hover:text-[#5aaa5e] underline underline-offset-2">
-                                    €85 per person
+                                    €115 per person
                                 </Link>{" "}
                                 (€50 deposit required at booking)
                             </li>

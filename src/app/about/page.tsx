@@ -142,7 +142,7 @@ export default function AboutPage() {
                         { label: "Duration", value: "Approx. 3.5 hours" },
                         { label: "Class size", value: "Max 6 people" },
                         { label: "Location", value: "Dundrum Town Centre, Dublin" },
-                        { label: "Fee", value: "€85 (€50 deposit at booking)" },
+                        { label: "Fee", value: "€115 (€50 deposit at booking)" },
                         { label: "Prerequisites", value: "None — open to everyone" },
                     ].map(({ label, value }) => (
                         <div key={label} className="p-5 bg-gray-50 rounded-lg border border-gray-100">

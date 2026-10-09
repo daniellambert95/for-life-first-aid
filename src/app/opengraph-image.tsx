@@ -52,7 +52,7 @@ export default async function Image() {
             opacity: 0.9,
           }}
         >
-          PHECC Certified | €85 | Dublin
+          PHECC Certified | €115 | Dublin
         </div>
       </div>
     ),

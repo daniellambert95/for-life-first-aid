@@ -51,7 +51,7 @@ export default function Home() {
         },
         "offers": {
           "@type": "Offer",
-          "price": "85",
+          "price": "115",
           "priceCurrency": "EUR",
           "availability": "https://schema.org/InStock",
           "validFrom": "2024-01-01"

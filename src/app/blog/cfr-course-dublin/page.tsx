@@ -142,7 +142,7 @@ export default function CFRCourseDublin() {
                     <section>
                         <h2 className="text-2xl font-bold text-gray-900 mb-4">How Much Does a CFR Course Cost in Dublin?</h2>
                         <p>
-                            A CFR course in Dublin typically costs between €80 and €100. Our course is priced at €85, with a €50 deposit required at the time of booking. For a full breakdown, read our guide on{" "}
+                            A CFR course in Dublin typically costs between €80 and €100. Our course is priced at €115, with a €50 deposit required at the time of booking. For a full breakdown, read our guide on{" "}
                             <Link href="/blog/how-much-does-a-cpr-course-cost-in-dublin" className="text-[#66bb6a] hover:text-[#5aaa5e] underline underline-offset-2">
                                 how much a CPR course costs in Dublin
                             </Link>
@@ -233,7 +233,7 @@ export default function CFRCourseDublin() {
                             <li>
                                 <strong>Fee:</strong>{" "}
                                 <Link href="/#about" className="text-[#66bb6a] hover:text-[#5aaa5e] underline underline-offset-2">
-                                    €85
+                                    €115
                                 </Link>{" "}
                                 (€50 deposit required at booking)
                             </li>

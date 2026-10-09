@@ -278,7 +278,7 @@ export default function WhatToDoIfSomeoneCollapses() {
                                     href="/#about"
                                     className="text-[#66bb6a] hover:text-[#5aaa5e] underline underline-offset-2"
                                 >
-                                    €85
+                                    €115
                                 </Link>{" "}
                                 (€50 deposit required at booking)
                             </li>

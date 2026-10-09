@@ -156,7 +156,7 @@ export default function HowMuchDoesCPRCourseCost() {
                             <Link href="/#course-content" className="text-[#66bb6a] hover:text-[#5aaa5e] underline underline-offset-2">
                                 Cardiac First Responder course
                             </Link>{" "}
-                            is priced at <strong>€85 per person</strong> and includes everything you need to get certified.
+                            is priced at <strong>€115 per person</strong> and includes everything you need to get certified.
                         </p>
                         <ul className="list-disc ml-6 space-y-2 mb-6">
                             <li>
@@ -192,7 +192,7 @@ export default function HowMuchDoesCPRCourseCost() {
                             <li>
                                 <strong>Fee:</strong>{" "}
                                 <Link href="/#about" className="text-[#66bb6a] hover:text-[#5aaa5e] underline underline-offset-2">
-                                    €85
+                                    €115
                                 </Link>{" "}
                                 (€50 deposit required at booking)
                             </li>

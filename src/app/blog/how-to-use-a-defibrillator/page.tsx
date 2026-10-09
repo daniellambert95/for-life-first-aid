@@ -251,7 +251,7 @@ export default function HowToUseADefibrillator() {
                             <li>
                                 <strong>Fee:</strong>{" "}
                                 <Link href="/#about" className="text-[#66bb6a] hover:text-[#5aaa5e] underline underline-offset-2">
-                                    €85
+                                    €115
                                 </Link>{" "}
                                 (certification valid for 2 years)
                             </li>
